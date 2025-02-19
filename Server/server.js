@@ -7,7 +7,7 @@ const bodyParser = require('body-parser');
 // Connect to MongoDB
 
 const dbConnection = require('./dbConnection/dbConnection');
-const admin = require('./routes/LoginRoutes');
+const admin = require('./Routes/login.Routes');
 
 const app = express();
 const port = process.env.PORT || 5000;

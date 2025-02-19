@@ -1,4 +1,4 @@
-const Login = require("../../models/Login/Login");
+const Login = require("../../Models/login.Models");
 const jwt = require("jsonwebtoken"); // Ensure this line is present
 
 
